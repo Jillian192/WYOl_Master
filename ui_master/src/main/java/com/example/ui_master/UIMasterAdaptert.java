@@ -15,6 +15,7 @@ public class UIMasterAdaptert extends BaseQuickAdapter<String, BaseViewHolder> {
 
     @Override
     protected void convert(BaseViewHolder helper, String item) {
+        helper.setText(R.id.ui_name,item);
 
     }
 }
