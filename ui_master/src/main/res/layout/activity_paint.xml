@@ -6,8 +6,11 @@
     android:layout_height="match_parent"
     android:orientation="vertical">
 
-<com.example.ui_master.paint.SplashView
-    android:layout_width="match_parent"
-    android:layout_height="wrap_content" />
+    <!--<com.example.ui_master.paint.SplashView-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="wrap_content" />-->
+    <com.example.ui_master.paint.PathMeasureView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
 
 </LinearLayout>
