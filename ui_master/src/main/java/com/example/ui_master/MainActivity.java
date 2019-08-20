@@ -9,7 +9,6 @@ import android.view.View;
 
 import com.chad.library.adapter.base.BaseQuickAdapter;
 import com.example.ui_master.filter.FilterActivity;
-import com.example.ui_master.paint.PaintActivity;
 
 import java.util.ArrayList;
 
@@ -27,7 +26,7 @@ public class MainActivity extends AppCompatActivity implements BaseQuickAdapter.
         mUiMaster.setAdapter(uiMasterAdaptert);
         ArrayList<String> strings = new ArrayList<>();
         strings.add("Paint-滤镜");
-        strings.add("Paint-案例");
+        strings.add("Paint-画笔高级应用");
         uiMasterAdaptert.setNewData(strings);
         uiMasterAdaptert.setOnItemClickListener(this);
     }
@@ -39,9 +38,8 @@ public class MainActivity extends AppCompatActivity implements BaseQuickAdapter.
                 startActivity(new Intent(this, FilterActivity.class));
                 break;
             case 1:
-                startActivity(new Intent(this, PaintActivity.class));
+                startActivity(new Intent(this, PaintApplicationActivity.class));
                 break;
         }
     }
-
 }

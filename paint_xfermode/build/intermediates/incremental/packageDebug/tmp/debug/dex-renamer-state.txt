@@ -1,0 +1,7 @@
+#Mon Aug 19 11:14:55 CST 2019
+base.0=G\:\\work\\Work\\WYOl_Master\\paint_xfermode\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\out
+path.1=classes.dex
+renamed.1=classes2.dex
+path.0=classes.dex
+renamed.0=classes.dex
+base.1=G\:\\work\\Work\\WYOl_Master\\paint_xfermode\\build\\intermediates\\dex\\debug\\mergeExtDexDebug\\out

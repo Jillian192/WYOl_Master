@@ -1,1 +1,1 @@
-include ':app', ':ui_master', ':apidemos-master'
+include ':app', ':ui_master', ':apidemos-master', ':paintapplication', ':paint_xfermode', ':paint_colorfilter', ':canvas_transform', ':canvas_split', ':canvas_opration', ':canvas_bezier', ':canvas_path'

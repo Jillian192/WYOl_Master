@@ -16,7 +16,7 @@
 
 package com.example.android.apis;
 
-import com.orhanobut.logger.Logger;
+
 
 import android.app.ListActivity;
 import android.content.Intent;
@@ -34,6 +34,7 @@ import java.util.Comparator;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
+import java.util.logging.Logger;
 
 public class ApiDemos extends ListActivity {
 
@@ -46,7 +47,7 @@ public class ApiDemos extends ListActivity {
         if (path == null) {
             path = "";
         }
-        Logger.d("apidemos onCreate path == "+path);
+
         setListAdapter(new SimpleAdapter(this, getData(path),
                 android.R.layout.simple_list_item_1, new String[] { "title" },
                 new int[] { android.R.id.text1 }));
@@ -140,7 +141,7 @@ public class ApiDemos extends ListActivity {
 
     protected void addItem(List<Map<String, Object>> data, String name, Intent intent) {
         Map<String, Object> temp = new HashMap<String, Object>();
-        Logger.d("name=%s,intent=%s",name,intent);
+
         temp.put("title", name);
         temp.put("intent", intent);
         data.add(temp);
@@ -153,7 +154,6 @@ public class ApiDemos extends ListActivity {
 
         Intent intent = new Intent((Intent) map.get("intent"));
         intent.addCategory(Intent.CATEGORY_SAMPLE_CODE);
-        Logger.d("onListItemClick: intent="+intent);
         startActivity(intent);
     }
 }

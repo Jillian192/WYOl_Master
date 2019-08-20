@@ -5,6 +5,14 @@
       <module fileurl="file://$PROJECT_DIR$/WYOl_Master.iml" filepath="$PROJECT_DIR$/WYOl_Master.iml" />
       <module fileurl="file://$PROJECT_DIR$/apidemos-master/apidemos-master.iml" filepath="$PROJECT_DIR$/apidemos-master/apidemos-master.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/canvas_bezier/canvas_bezier.iml" filepath="$PROJECT_DIR$/canvas_bezier/canvas_bezier.iml" />
+      <module fileurl="file://$PROJECT_DIR$/canvas_opration/canvas_opration.iml" filepath="$PROJECT_DIR$/canvas_opration/canvas_opration.iml" />
+      <module fileurl="file://$PROJECT_DIR$/canvas_path/canvas_path.iml" filepath="$PROJECT_DIR$/canvas_path/canvas_path.iml" />
+      <module fileurl="file://$PROJECT_DIR$/canvas_split/canvas_split.iml" filepath="$PROJECT_DIR$/canvas_split/canvas_split.iml" />
+      <module fileurl="file://$PROJECT_DIR$/canvas_transform/canvas_transform.iml" filepath="$PROJECT_DIR$/canvas_transform/canvas_transform.iml" />
+      <module fileurl="file://$PROJECT_DIR$/paint_colorfilter/paint_colorfilter.iml" filepath="$PROJECT_DIR$/paint_colorfilter/paint_colorfilter.iml" />
+      <module fileurl="file://$PROJECT_DIR$/paint_xfermode/paint_xfermode.iml" filepath="$PROJECT_DIR$/paint_xfermode/paint_xfermode.iml" />
+      <module fileurl="file://$PROJECT_DIR$/paintapplication/paintapplication.iml" filepath="$PROJECT_DIR$/paintapplication/paintapplication.iml" />
       <module fileurl="file://$PROJECT_DIR$/ui_master/ui_master.iml" filepath="$PROJECT_DIR$/ui_master/ui_master.iml" />
     </modules>
   </component>

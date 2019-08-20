@@ -1,0 +1,11 @@
+#Internal package file, do not edit.
+#Fri Aug 16 18:17:03 CST 2019
+1.base=G\:\\work\\Work\\WYOl_Master\\paint_xfermode\\build\\intermediates\\dex\\debug\\mergeExtDexDebug\\out
+0.baseType=DIRECTORY
+1.baseType=DIRECTORY
+count=2
+1.set=DEX
+0.path=classes.dex
+0.set=DEX
+0.base=G\:\\work\\Work\\WYOl_Master\\paint_xfermode\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\out
+1.path=classes.dex
